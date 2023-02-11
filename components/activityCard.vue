@@ -24,8 +24,6 @@
 
 
 <script>
-import { stringify } from 'querystring';
-
 export default {
     props: {
         title: {
@@ -39,7 +37,6 @@ export default {
         image: {
             type: String,
             required: true
-
         },
         date: {
             type:String,
